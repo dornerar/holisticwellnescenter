@@ -1,0 +1,118 @@
+/* Navbar Styles */
+.custom-navbar {
+    background-color: #a1c9d2 !important;
+}
+
+.custom-navbar .nav-link {
+    color: black !important;
+    font-weight: 400; /* Slightly thicker than the default font-weight */
+}
+
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link:hover {
+    color: #eef5f9 !important;
+}
+
+/* Navbar Brand - Make it thicker */
+.custom-navbar .navbar-brand {
+    font-weight: 520; /* or higher value to make it thicker */
+}
+
+/* Footer Styles */
+.custom-footer {
+    background-color: #a1c9d2 !important;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* adjust height as necessary */
+}
+
+.hero-heading {
+  font-weight: 650;
+  color: #30596d;
+}
+
+.hero-subheading {
+  font-weight: 600;
+  color: #30596d;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Headings should be bold */
+h1, h2, h3 {
+  font-weight: 600; /* Bold for headings */
+}
+
+/* Paragraphs, list items, and links should be lighter */
+p, li, a {
+  font-weight: 300; /* Light for regular text */
+}
+
+/* Apply background color to the entire body of the Contact page */
+body.contact-page {
+    background-color: #ebfbff !important;
+}
+
+/* Contact Page Body Background */
+body.contact-page {
+    background-color: #ebfbff !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Background + Remove Margins */
+.contact-section {
+    background-color: #ebfbff;
+    padding: 80px 0;
+    margin: 0; /* remove space that could show white */
+}
+
+/* Container should match background and fill width better */
+.contact-section .container {
+    background-color: #ebfbff;
+    padding: 0 15px; /* adjust if needed */
+    margin: 0 auto;
+}
+
+/* Form Inputs Background and Text Color */
+.contact-section .form-control {
+    background-color: #ebfbff;
+    border: 1px solid #2e2929;
+    color: #333; /* readable text */
+}
+
+/* Text Spacing */
+.contact-section h1,
+.contact-section p {
+    margin-bottom: 30px;
+}
+
+/* Input Spacing */
+.contact-section form .form-control {
+    margin-bottom: 20px;
+}
+
+.custom-btn {
+    background-color: #04768f;
+    color: white;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #58acbf; 
+}
+
+
